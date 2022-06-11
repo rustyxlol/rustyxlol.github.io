@@ -1,0 +1,31 @@
+baseURL: https://rustyxlol.github.io/
+languageCode: en-us
+theme: PaperMod
+
+title: Rusty
+
+params:
+    profileMode:
+        enabled: true
+        title: "Hi! I'm Rusty" # optional default will be site title
+        subtitle: "97% introverted hobbyist programmer with 3% will to live"
+        imageUrl: "https://avatars.githubusercontent.com/u/27452933?v=4" # optional
+        imageTitle: "GitHub Avatar" # optional
+        imageWidth: 240 # custom size
+        imageHeight: 240 # custom size
+
+    
+    socialIcons: # optional
+      - name: "github"
+        url: "https://github.com/rustyxlol"
+      - name: "stackoverflow"
+        url: "https://stackoverflow.com/users/16024991/rusty"
+      - name: "twitter"
+        url: "https://twitter.com/rustyxlol"
+      - name: "paypal"
+        url: "https://paypal.com/paypalme/rustyxlol"
+      - name: "email"
+        url: "mailto:rustyxlol@pm.me"
+
+
+copyright: "© 2022 Rusty"
