@@ -9,6 +9,8 @@ layout: single
 modified: 2022-06-12
 ---
 
+---
+
 Hello there. I am **Rusty**, a Computer Science and Engineering graduate currently residing in India.  
 
 I am an amateur programmer and have been working with **Python** for about a year now.  

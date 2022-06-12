@@ -1,0 +1,4 @@
+.post-content dt~dt, 
+.post-content dd~dd {
+    margin-top: 1.5rem;
+}
