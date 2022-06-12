@@ -1,4 +1,4 @@
-baseURL: "https://rustyxlol.github.io"
+baseURL: https://rustyxlol.github.io/
 languageCode: en-us
 theme: PaperMod
 
@@ -43,5 +43,8 @@ menu:
       name: Projects
       url: /projects/
       weight: 20
+
+taxonomies:
+  series: series
 
 copyright: "© 2022 Rusty"
