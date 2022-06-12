@@ -17,9 +17,9 @@ params:
     
     socialIcons: # optional
       - name: "stackoverflow"
+        url: "https://stackoverflow.com/users/16024991/rusty"
       - name: "twitter"
         url: "https://twitter.com/rustyxlol"
-        url: "https://stackoverflow.com/users/16024991/rusty"
       - name: "github"
         url: "https://github.com/rustyxlol"
       - name: "email"
