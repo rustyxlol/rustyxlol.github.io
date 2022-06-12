@@ -8,7 +8,7 @@ params:
     profileMode:
         enabled: true
         title: "Hi! I'm Rusty" # optional default will be site title
-        subtitle: "97% introverted hobbyist programmer with 3% will to live"
+        subtitle: "97% introverted amateur programmer"
         imageUrl: "https://avatars.githubusercontent.com/u/27452933?v=4" # optional
         imageTitle: "GitHub Avatar" # optional
         imageWidth: 240 # custom size
@@ -16,16 +16,27 @@ params:
 
     
     socialIcons: # optional
-      - name: "github"
-        url: "https://github.com/rustyxlol"
       - name: "stackoverflow"
-        url: "https://stackoverflow.com/users/16024991/rusty"
       - name: "twitter"
         url: "https://twitter.com/rustyxlol"
-      - name: "paypal"
-        url: "https://paypal.com/paypalme/rustyxlol"
+        url: "https://stackoverflow.com/users/16024991/rusty"
+      - name: "github"
+        url: "https://github.com/rustyxlol"
       - name: "email"
         url: "mailto:rustyxlol@pm.me"
+      - name: "rss"
+        url: "/posts/index.xml"
 
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
 
 copyright: "© 2022 Rusty"
