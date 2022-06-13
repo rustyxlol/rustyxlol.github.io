@@ -35,7 +35,7 @@ The best way of reaching out to me is probably on Discord at **Rusty#2400**,
 where I'm online as long as I'm awake.  
 You can also mail me on rustyxlol@pm.me if you like.
 
-I am mostly active in [**Python Discord**](https://discord.gg/blender) - A large community focused around Python  
+I am mostly active in [**Python Discord**](https://discord.gg/python) - A large community focused around Python  
 
 You might also find me in [CS50](https://discord.gg/cs50), [Blender Community](https://discord.gg/blender)
-or other popular tech/programming discord servers
+or other popular tech/programming Discord servers
