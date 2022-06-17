@@ -2,3 +2,11 @@
 .post-content dd~dd {
     margin-top: 1.5rem;
 }
+
+.toc details summary {
+    cursor: pointer;
+}
+
+.toc details[open] summary {
+    cursor: pointer;
+}
