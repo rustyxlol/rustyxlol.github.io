@@ -5,6 +5,10 @@ theme: PaperMod
 title: Rusty
 
 params:
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    ShowBreadCrumbs: true
+
     profileMode:
         enabled: true
         title: "Hi! I'm Rusty" # optional default will be site title
@@ -46,5 +50,6 @@ menu:
 
 taxonomies:
   series: series
+  tags: tags
 
 copyright: "© 2022 Rusty"
