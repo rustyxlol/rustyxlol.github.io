@@ -24,3 +24,33 @@ that I used Vim for a week and regretted it. I won't measure the time but hopefu
 git history will be the evidence of what I did.
 
 ---
+
+## Day 1
+Today was incredibly tough and quite painful, though it really wasn't because of Vim
+but because of VSCode messing up a few functions due to Vim emulation, again, can't really
+blame either because it works as it should. 
+
+I would say that the Vim experience was rather good and made me feel quite 
+happy because I could actually feel the speed and I didn't use arrow keys as much!  
+Although it is quite annoying to constantly switch between insert and normal mode, I think
+I've gotten quite good at it.
+
+Some of the major problems I faced were:  
+1. Going to the end of the line to put a `;` in Rust.
+2. Going to the beginning of the line.
+3. Going to the position before `"` in a line like `println!("hello");`.
+4. Copying and pasting, yanking feels ODD as HELL.
+5. Duplicating a line.
+6. Accidentally entering visual mode, how do I enter visual mode randomly? Perhaps `CTRL + V`?
+7. Starting a new line.
+
+Solutions to those major problems:
+1. `A;<ESC>`
+2. `0`
+3. `f";` - didn't bother finding another way
+4. yanking and putting `yyp`
+5. `yyp` again
+6. No idea. Probably accidental.
+7. o for a line below, O for a line above, {n}o/O for n lines above/below
+
+Besides that, maybe I'll hang out in vimtutor for a bit
