@@ -8,6 +8,10 @@ params:
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
     ShowBreadCrumbs: true
+    editPost:
+      URL: "https://github.com/rustyxlol/rustyxlol.github.io/tree/master/content"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true # to append file path to Edit link
 
     profileMode:
         enabled: true
