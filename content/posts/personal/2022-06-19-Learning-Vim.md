@@ -1,6 +1,6 @@
 ---
 title: "Using Vim for a week!"
-date: "2022-06-19"
+date: "2022-07-03"
 description: &desc "Starting today, I have decided to be a masochist and use Vim for a week"
 summary: *desc
 tags: ["personal"]
@@ -26,16 +26,18 @@ git history will be the evidence of what I did.
 ---
 
 ## Day 1
+
 Today was incredibly tough and quite painful, though it really wasn't because of Vim
 but because of VSCode messing up a few functions due to Vim emulation, again, can't really
-blame either because it works as it should. 
+blame either because it works as it should.
 
-I would say that the Vim experience was rather good and made me feel quite 
+I would say that the Vim experience was rather good and made me feel quite
 happy because I could actually feel the speed and I didn't use arrow keys as much!  
 Although it is quite annoying to constantly switch between insert and normal mode, I think
 I've gotten quite good at it.
 
 Some of the major problems I faced were:  
+
 1. Going to the end of the line to put a `;` in Rust.
 2. Going to the beginning of the line.
 3. Going to the position before `"` in a line like `println!("hello");`.
@@ -44,7 +46,8 @@ Some of the major problems I faced were:
 6. Accidentally entering visual mode, how do I enter visual mode randomly? Perhaps `CTRL + V`?
 7. Starting a new line.
 
-Solutions to those major problems:
+Solutions to those major problems:  
+
 1. `A;<ESC>`
 2. `0`
 3. `f";` - didn't bother finding another way
@@ -53,4 +56,14 @@ Solutions to those major problems:
 6. No idea. Probably accidental.
 7. o for a line below, O for a line above, {n}o/O for n lines above/below
 
-Besides that, maybe I'll hang out in vimtutor for a bit
+Besides that, maybe I'll hang out in vimtutor for a bit.  
+
+### Day 2
+
+Nothing much besides learning a few more controls, getting the hang of vim bit by bit and
+surprisingly, using those keybindings in places I shouldn't use, like Chrome or MS Word.  
+New discoveries involve:  
+
+1. `a` to enter insert mode in front of the character
+2. `A` to enter insert mode at the last character in line
+3. `I` to enter insert mode at the first character in line.
