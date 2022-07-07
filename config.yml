@@ -32,8 +32,6 @@ params:
         url: "https://github.com/rustyxlol"
       - name: "email"
         url: "mailto:rustyxlol@pm.me"
-      - name: "rss"
-        url: "/posts/index.xml"
 
 menu:
   main:
