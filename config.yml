@@ -16,7 +16,7 @@ params:
     profileMode:
         enabled: true
         title: "Hi! I'm Rusty" # optional default will be site title
-        subtitle: "97% introverted amateur programmer"
+        subtitle: "Software Developer"
         imageUrl: "https://avatars.githubusercontent.com/u/27452933?v=4" # optional
         imageTitle: "GitHub Avatar" # optional
         imageWidth: 240 # custom size
