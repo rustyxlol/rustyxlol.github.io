@@ -67,3 +67,10 @@ New discoveries involve:
 1. `a` to enter insert mode in front of the character
 2. `A` to enter insert mode at the last character in line
 3. `I` to enter insert mode at the first character in line.
+
+### Day 3-7
+
+Long time no see, didn't bother making an entry because stuff was happening. Journey with Vim was rather pleasant, perhaps it would've been even better if I had a mechanical keyboard but that's on me.  
+Mostly used the common shortcuts and shortly shifted to Neovim because of it's customization options, using plugins was rather easy thanks to Plug, did not really have a good experience making plugins(didn't make any), luascript is beyond me.
+
+Overall, I don't think I would use Vim as my daily driver because VSCode has made a lot of things VERY convenient and I've been accustomed to it, not to forget their incredible support for various languages and frameworks(looking at you Jupyter notebooks!).
