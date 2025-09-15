@@ -8,12 +8,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v5
         with:
-          submodules: recursive  # Fetch Hugo themes (true OR recursive)
-      - name: Update PaperMod
-        run: git submodule update --init --remote --merge
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          
+      - name: Update PaperMod submodule
+        run: |
+          echo "Updating PaperMod submodule to latest commit..."
+          cd themes/PaperMod
+          git checkout master
+          git pull origin master
+          cd ../..
+          git add themes/PaperMod
+          git commit -m "Update PaperMod to latest" || echo "No changes to commit"
+          git log -1 --oneline  # shows last commit of PaperMod
         
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
