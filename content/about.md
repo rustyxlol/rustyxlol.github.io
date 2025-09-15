@@ -11,7 +11,7 @@ modified: 2022-06-12
 
 ---
 
-Hello there. I am **Rusty**, a Computer Science and Engineering graduate currently residing in India.  
+Hello there. I am **Rusty**, a Computer Science and Engineering graduate currently working as a Cloud Support Engineer.  
 
 I am an amateur programmer and have been working with **Python** for about a year now.  
 I do like the high level aspect of Python but I've been leaning towards **Rust** these days
